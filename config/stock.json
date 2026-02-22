@@ -1,0 +1,17 @@
+[
+    {
+        "symbol":"QQQ",
+        "market":"US",
+        "type":"STOCK",
+        "refer":""
+    },
+    {
+        "symbol":"TQQQ",
+        "market":"US",
+        "type":"STOCK",
+        "refer":"QQQ"
+    }
+
+
+
+]

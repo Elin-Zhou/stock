@@ -1,17 +1,104 @@
 [
     {
-        "symbol":"QQQ",
-        "market":"US",
-        "type":"STOCK",
-        "refer":""
+        "symbol": "QQQ",
+        "market": "US",
+        "type": "ETF",
+        "refer": ""
     },
     {
-        "symbol":"TQQQ",
-        "market":"US",
-        "type":"STOCK",
-        "refer":"QQQ"
+        "symbol": "TQQQ",
+        "market": "US",
+        "type": "ETF",
+        "refer": "QQQ"
+    },
+    {
+        "symbol": "GGLL",
+        "market": "US",
+        "type": "ETF",
+        "refer": "GOOGL"
+    },
+    {
+        "symbol": "SOXL",
+        "market": "US",
+        "type": "ETF",
+        "refer": ""
+    },
+    {
+        "symbol": "UPRO",
+        "market": "US",
+        "type": "ETF",
+        "refer": ""
+    },
+    {
+        "symbol": "SPMO",
+        "market": "US",
+        "type": "ETF",
+        "refer": ""
+    },
+    {
+        "symbol": "NAIL",
+        "market": "US",
+        "type": "ETF",
+        "refer": ""
+    },
+    {
+        "symbol": "TSLL",
+        "market": "US",
+        "type": "ETF",
+        "refer": "TSLA"
+    },
+    {
+        "symbol": "LABU",
+        "market": "US",
+        "type": "ETF",
+        "refer": ""
+    },
+    {
+        "symbol": "NVOX",
+        "market": "US",
+        "type": "ETF",
+        "refer": "NVO"
+    },
+    {
+        "symbol": "TEMT",
+        "market": "US",
+        "type": "ETF",
+        "refer": "TEM"
+    },
+    {
+        "symbol": "FBL",
+        "market": "US",
+        "type": "ETF",
+        "refer": "META"
+    },
+    {
+        "symbol": "TCOM",
+        "market": "US",
+        "type": "STOCK",
+        "refer": ""
+    },
+    {
+        "symbol": "BABA",
+        "market": "US",
+        "type": "STOCK",
+        "refer": ""
+    },
+    {
+        "symbol": "SPY",
+        "market": "US",
+        "type": "ETF",
+        "refer": ""
+    },
+    {
+        "symbol": "NVDA",
+        "market": "US",
+        "type": "STOCK",
+        "refer": ""
+    },
+    {
+        "symbol": "NVDL",
+        "market": "US",
+        "type": "ETF",
+        "refer": "NVDA"
     }
-
-
-
 ]

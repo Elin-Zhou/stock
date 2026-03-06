@@ -100,5 +100,17 @@
         "market": "US",
         "type": "ETF",
         "refer": "NVDA"
+    },
+    {
+        "symbol": "FNGU",
+        "market": "US",
+        "type": "ETF",
+        "refer": ""
+    },
+    {
+        "symbol": "INDL",
+        "market": "US",
+        "type": "ETF",
+        "refer": ""
     }
 ]

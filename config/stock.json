@@ -1,116 +1,698 @@
 [
-    {
-        "symbol": "QQQ",
-        "market": "US",
-        "type": "ETF",
-        "refer": ""
-    },
-    {
-        "symbol": "TQQQ",
-        "market": "US",
-        "type": "ETF",
-        "refer": "QQQ"
-    },
-    {
-        "symbol": "GGLL",
-        "market": "US",
-        "type": "ETF",
-        "refer": "GOOGL"
-    },
-    {
-        "symbol": "SOXL",
-        "market": "US",
-        "type": "ETF",
-        "refer": ""
-    },
-    {
-        "symbol": "UPRO",
-        "market": "US",
-        "type": "ETF",
-        "refer": ""
-    },
-    {
-        "symbol": "SPMO",
-        "market": "US",
-        "type": "ETF",
-        "refer": ""
-    },
-    {
-        "symbol": "NAIL",
-        "market": "US",
-        "type": "ETF",
-        "refer": ""
-    },
-    {
-        "symbol": "TSLL",
-        "market": "US",
-        "type": "ETF",
-        "refer": "TSLA"
-    },
-    {
-        "symbol": "LABU",
-        "market": "US",
-        "type": "ETF",
-        "refer": ""
-    },
-    {
-        "symbol": "NVOX",
-        "market": "US",
-        "type": "ETF",
-        "refer": "NVO"
-    },
-    {
-        "symbol": "TEMT",
-        "market": "US",
-        "type": "ETF",
-        "refer": "TEM"
-    },
-    {
-        "symbol": "FBL",
-        "market": "US",
-        "type": "ETF",
-        "refer": "META"
-    },
-    {
-        "symbol": "TCOM",
-        "market": "US",
-        "type": "STOCK",
-        "refer": ""
-    },
-    {
-        "symbol": "BABA",
-        "market": "US",
-        "type": "STOCK",
-        "refer": ""
-    },
-    {
-        "symbol": "SPY",
-        "market": "US",
-        "type": "ETF",
-        "refer": ""
-    },
-    {
-        "symbol": "NVDA",
-        "market": "US",
-        "type": "STOCK",
-        "refer": ""
-    },
-    {
-        "symbol": "NVDL",
-        "market": "US",
-        "type": "ETF",
-        "refer": "NVDA"
-    },
-    {
-        "symbol": "FNGU",
-        "market": "US",
-        "type": "ETF",
-        "refer": ""
-    },
-    {
-        "symbol": "INDL",
-        "market": "US",
-        "type": "ETF",
-        "refer": ""
-    }
+  {
+    "symbol": "AAPL",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "AGG",
+    "market": "US",
+    "type": "ETF",
+    "refer": ""
+  },
+  {
+    "symbol": "AMD",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "AMDL",
+    "market": "US",
+    "type": "ETF",
+    "refer": "AMD"
+  },
+  {
+    "symbol": "AMZN",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "ARKK",
+    "market": "US",
+    "type": "ETF",
+    "refer": ""
+  },
+  {
+    "symbol": "AXP",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "BA",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "BABA",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "BAC",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "BIDU",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "BLK",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "BND",
+    "market": "US",
+    "type": "ETF",
+    "refer": ""
+  },
+  {
+    "symbol": "BRK.B",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "C",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "CAT",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "CHPT",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "COP",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "CVX",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "DIA",
+    "market": "US",
+    "type": "ETF",
+    "refer": ""
+  },
+  {
+    "symbol": "DIS",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "DVN",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "EEM",
+    "market": "US",
+    "type": "ETF",
+    "refer": ""
+  },
+  {
+    "symbol": "EOG",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "EWJ",
+    "market": "US",
+    "type": "ETF",
+    "refer": ""
+  },
+  {
+    "symbol": "EWZ",
+    "market": "US",
+    "type": "ETF",
+    "refer": ""
+  },
+  {
+    "symbol": "FANG",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "FBL",
+    "market": "US",
+    "type": "ETF",
+    "refer": "META"
+  },
+  {
+    "symbol": "FNGU",
+    "market": "US",
+    "type": "ETF",
+    "refer": ""
+  },
+  {
+    "symbol": "FXI",
+    "market": "US",
+    "type": "ETF",
+    "refer": ""
+  },
+  {
+    "symbol": "GDX",
+    "market": "US",
+    "type": "ETF",
+    "refer": ""
+  },
+  {
+    "symbol": "GDXJ",
+    "market": "US",
+    "type": "ETF",
+    "refer": ""
+  },
+  {
+    "symbol": "GGLL",
+    "market": "US",
+    "type": "ETF",
+    "refer": "GOOGL"
+  },
+  {
+    "symbol": "GLD",
+    "market": "US",
+    "type": "ETF",
+    "refer": ""
+  },
+  {
+    "symbol": "GOOGL",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "GS",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "HAL",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "HD",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "HYG",
+    "market": "US",
+    "type": "ETF",
+    "refer": ""
+  },
+  {
+    "symbol": "INDA",
+    "market": "US",
+    "type": "ETF",
+    "refer": ""
+  },
+  {
+    "symbol": "INDL",
+    "market": "US",
+    "type": "ETF",
+    "refer": ""
+  },
+  {
+    "symbol": "INTC",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "IWM",
+    "market": "US",
+    "type": "ETF",
+    "refer": ""
+  },
+  {
+    "symbol": "IYR",
+    "market": "US",
+    "type": "ETF",
+    "refer": ""
+  },
+  {
+    "symbol": "JD",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "JNJ",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "JPM",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "KMI",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "LABU",
+    "market": "US",
+    "type": "ETF",
+    "refer": ""
+  },
+  {
+    "symbol": "LCID",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "LI",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "LNG",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "LQD",
+    "market": "US",
+    "type": "ETF",
+    "refer": ""
+  },
+  {
+    "symbol": "MA",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "META",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "MPC",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "MRO",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "MS",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "MSFT",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "NAIL",
+    "market": "US",
+    "type": "ETF",
+    "refer": ""
+  },
+  {
+    "symbol": "NFLX",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "NIO",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "NVDA",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "NVDL",
+    "market": "US",
+    "type": "ETF",
+    "refer": "NVDA"
+  },
+  {
+    "symbol": "NVOX",
+    "market": "US",
+    "type": "ETF",
+    "refer": "NVO"
+  },
+  {
+    "symbol": "OKE",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "OXY",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "PDD",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "PG",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "PSX",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "PXD",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "QQQ",
+    "market": "US",
+    "type": "ETF",
+    "refer": ""
+  },
+  {
+    "symbol": "RIVN",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "RSX",
+    "market": "US",
+    "type": "ETF",
+    "refer": ""
+  },
+  {
+    "symbol": "SCHD",
+    "market": "US",
+    "type": "ETF",
+    "refer": ""
+  },
+  {
+    "symbol": "SIL",
+    "market": "US",
+    "type": "ETF",
+    "refer": ""
+  },
+  {
+    "symbol": "SLB",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "SLV",
+    "market": "US",
+    "type": "ETF",
+    "refer": ""
+  },
+  {
+    "symbol": "SOXL",
+    "market": "US",
+    "type": "ETF",
+    "refer": ""
+  },
+  {
+    "symbol": "SPMO",
+    "market": "US",
+    "type": "ETF",
+    "refer": ""
+  },
+  {
+    "symbol": "SPXL",
+    "market": "US",
+    "type": "ETF",
+    "refer": "SPY"
+  },
+  {
+    "symbol": "SPY",
+    "market": "US",
+    "type": "ETF",
+    "refer": ""
+  },
+  {
+    "symbol": "SQQQ",
+    "market": "US",
+    "type": "ETF",
+    "refer": "QQQ"
+  },
+  {
+    "symbol": "TCOM",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "TEMT",
+    "market": "US",
+    "type": "ETF",
+    "refer": "TEM"
+  },
+  {
+    "symbol": "TLT",
+    "market": "US",
+    "type": "ETF",
+    "refer": ""
+  },
+  {
+    "symbol": "TQQQ",
+    "market": "US",
+    "type": "ETF",
+    "refer": "QQQ"
+  },
+  {
+    "symbol": "TRGP",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "TSLA",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "TSLL",
+    "market": "US",
+    "type": "ETF",
+    "refer": "TSLA"
+  },
+  {
+    "symbol": "UPRO",
+    "market": "US",
+    "type": "ETF",
+    "refer": "SPY"
+  },
+  {
+    "symbol": "USO",
+    "market": "US",
+    "type": "ETF",
+    "refer": ""
+  },
+  {
+    "symbol": "V",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "VEA",
+    "market": "US",
+    "type": "ETF",
+    "refer": ""
+  },
+  {
+    "symbol": "VLO",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "VNQ",
+    "market": "US",
+    "type": "ETF",
+    "refer": ""
+  },
+  {
+    "symbol": "VOO",
+    "market": "US",
+    "type": "ETF",
+    "refer": ""
+  },
+  {
+    "symbol": "VTI",
+    "market": "US",
+    "type": "ETF",
+    "refer": ""
+  },
+  {
+    "symbol": "VWO",
+    "market": "US",
+    "type": "ETF",
+    "refer": ""
+  },
+  {
+    "symbol": "VXUS",
+    "market": "US",
+    "type": "ETF",
+    "refer": ""
+  },
+  {
+    "symbol": "VYM",
+    "market": "US",
+    "type": "ETF",
+    "refer": ""
+  },
+  {
+    "symbol": "WFC",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "WMB",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "WMT",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "XLB",
+    "market": "US",
+    "type": "ETF",
+    "refer": ""
+  },
+  {
+    "symbol": "XLE",
+    "market": "US",
+    "type": "ETF",
+    "refer": ""
+  },
+  {
+    "symbol": "XLF",
+    "market": "US",
+    "type": "ETF",
+    "refer": ""
+  },
+  {
+    "symbol": "XLI",
+    "market": "US",
+    "type": "ETF",
+    "refer": ""
+  },
+  {
+    "symbol": "XLK",
+    "market": "US",
+    "type": "ETF",
+    "refer": ""
+  },
+  {
+    "symbol": "XLP",
+    "market": "US",
+    "type": "ETF",
+    "refer": ""
+  },
+  {
+    "symbol": "XLRE",
+    "market": "US",
+    "type": "ETF",
+    "refer": ""
+  },
+  {
+    "symbol": "XLU",
+    "market": "US",
+    "type": "ETF",
+    "refer": ""
+  },
+  {
+    "symbol": "XLV",
+    "market": "US",
+    "type": "ETF",
+    "refer": ""
+  },
+  {
+    "symbol": "XLY",
+    "market": "US",
+    "type": "ETF",
+    "refer": ""
+  },
+  {
+    "symbol": "XOM",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  },
+  {
+    "symbol": "XPEV",
+    "market": "US",
+    "type": "STOCK",
+    "refer": ""
+  }
 ]
